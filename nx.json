@@ -6,7 +6,7 @@
     "sharedGlobals": []
   },
   "useInferencePlugins": false,
-  "nxCloudAccessToken": "Mzk3ZGVkNDgtYTU2My00NDczLTliOGYtNzY0MTNmZDE5NTkxfHJlYWQ=",
+  "neverConnectToCloud": true,
   "generators": {
     "@nx/react": {
       "application": {
