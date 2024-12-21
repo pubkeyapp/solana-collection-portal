@@ -33,4 +33,4 @@ router
   .get('/json', () => [1, 2, 3])
   .get('/promises', () => Promise.resolve('foo'))
 
-export default router
+export default { ...router }
