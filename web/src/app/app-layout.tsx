@@ -1,4 +1,4 @@
-import { useMantineColorScheme, useMantineTheme } from '@mantine/core'
+import { useComputedColorScheme, useMantineTheme } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks'
 import { UiHeader, UiHeaderLink, UiLayout } from '@pubkey-ui/core'
 import { ReactNode } from 'react'
@@ -15,7 +15,7 @@ export function AppLayout({
   profile: ReactNode
 }) {
   const [opened, { toggle }] = useDisclosure(false)
-  const { colorScheme } = useMantineColorScheme()
+  const colorScheme = useComputedColorScheme('dark')
   const { colors } = useMantineTheme()
   const isDark = colorScheme === 'dark'
   return (
