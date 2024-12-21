@@ -1,9 +1,6 @@
-# PubKey UI Starter
+# Solana Collection Portal
 
-Starter for a [PubKey UI](https://github.com/pubkeyapp/pubkey-ui) project.
-
-> [!WARNING]  
-> PubKey UI is unstable, there can be minor and major changes at any time.
+A web app that lets you browse and buy digital collectibles on Solana.
 
 ## Getting Started
 
@@ -26,8 +23,8 @@ Starter for a [PubKey UI](https://github.com/pubkeyapp/pubkey-ui) project.
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/pubkeyapp/pubkey-ui-starter my-app
-cd my-app
+git clone https://github.com/pubkeyhq/solana-collection-portal my-portal
+cd my-portal
 pnpm install
 ```
 
